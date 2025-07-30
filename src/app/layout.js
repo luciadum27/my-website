@@ -1,16 +1,14 @@
-import "./globals.css"; // your global styles including font-face and body styles
+import './globals.css';
 
 export const metadata = {
-  title: "Your App Title",
-  description: "Your App Description",
+  title: 'a letter away',
+  description: 'an anxiety care site',
 };
 
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body className="font-yujisyuku antialiased">
-        {children}
-      </body>
+      <body>{children}</body>
     </html>
   );
 }

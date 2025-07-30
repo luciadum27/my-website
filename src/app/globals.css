@@ -7,24 +7,7 @@
   --foreground: #667046;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #ffffff;
-    --foreground: #A0BB6E;
-  }
-}
-
-@font-face {
-  font-family: 'Yuji Syuku';
-  src: url('/fonts/yuji-syuku/YujiSyuku-Regular.woff2') format('woff2'),
-       url('/fonts/yuji-syuku/YujiSyuku-Regular.ttf') format('truetype');
-  font-weight: 400;
-  font-style: normal;
-  font-display: swap;
-}
-
 body {
   background: var(--background);
   color: var(--foreground);
-  font-family: 'Yuji Syuku', serif;
 }
